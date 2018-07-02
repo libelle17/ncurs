@@ -11,6 +11,7 @@ int main(void)
 	setlocale(LC_ALL,"");
 	initscr();
 	echo();
+	cbreak();
 	keypad(stdscr,1);
 	curs_set(0);
 	attron(A_UNDERLINE);
