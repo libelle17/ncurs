@@ -1,0 +1,6 @@
+#!/bin/bash
+VZ=~/cdk
+LISTE="cdk_display.c cdk_params.c cdk.c draw.c cdk_objs.c label.c popup_label.c binding.c traverse.c cdkscreen.c entry.c"
+for d in $LISTE; do PAR="$PAR $VZ/$d"; done
+vi $PAR -p
+

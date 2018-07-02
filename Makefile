@@ -5,6 +5,8 @@ LDFLAGS::=`ncursesw5-config --libs`
 
 .PHONY: all
 all: b3 b4
+
+vorgabe:
 	cd JustForFun 	&& $(MAKE)
 	cd basics	&& $(MAKE)
 	cd forms	&& $(MAKE)
