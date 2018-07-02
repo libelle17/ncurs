@@ -1,0 +1,13 @@
+g++ -I. -I../include -o entry entry_ex.c ../cdkscreen.o ../traverse.o ../binding.o ../popup_label.o ../label.o ../cdk_objs.o -lncurses ../draw.o ../cdk.o ../entry.o ../cdk_display.o ../cdk_params.o
+
+cdk_display.c
+cdk_params.c
+cdk.c
+draw.c
+cdk_objs.c
+label.c
+popup_label.c
+binding.c
+traverse.c
+cdkscreen.c
+entry.c
